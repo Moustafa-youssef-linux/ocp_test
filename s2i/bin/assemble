@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "-- > before runnig the assemble script"
+
+exec /usr/libexec/s2i/assemble
+
+echo "-- > after runnig the assemble script"
+
+
